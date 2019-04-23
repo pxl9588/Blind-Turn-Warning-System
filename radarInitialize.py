@@ -21,7 +21,12 @@ messages.append("R+")
 #20k samples for up to 139.1 mph
 messages.append("S2")
 
-#If we decide to upgrade device firmware
+#Output mph
+messages.append("US")
+
+#Output magnitude
+messages.append("OM")
+
 #Flash data so we don't have to keep sending start up commands
 #messages.append("A!")
 
